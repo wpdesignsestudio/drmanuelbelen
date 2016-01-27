@@ -9,6 +9,7 @@ html
 
 body
 {
+    background: rgba(123,207,241,0.25);
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     color: #00060d;
@@ -71,7 +72,6 @@ h1,h2,h3,h4,h5,h6
     z-index: 1000;
 }
 
-
 /* custom */
 
 .tab-bar
@@ -83,6 +83,7 @@ h1,h2,h3,h4,h5,h6
 {
     font-family: 'bebas_neue_regularregular';
     text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .right-off-canvas-menu
@@ -95,12 +96,27 @@ h1,h2,h3,h4,h5,h6
     border-left: 1px solid rgba(0,0,0,0.5);
 }
 
+.left-small
+{
+    border-right: 1px solid #00060d;
+}
+
 ul.off-canvas-list li label
 {
     font-family: 'bebas_neue_regularregular';
     background: #00060d;
     border-top: 1px solid #00060d;
     color: #fff;
+    font-size: 1.5rem;
+}
+
+.profesion
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #fff;
+    padding: 0.3rem 0.9375rem;
 }
 
 ul.off-canvas-list li a
@@ -116,9 +132,26 @@ ul.off-canvas-list li a:hover
 
 .left-off-canvas-menu
 {
-    background: #f2f2f2;
+    background: #00060d;
+    color: #fff;
 }
 
+.user
+{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.panel {
+
+    border: 1px solid rgba(0, 6, 13, 0.2);
+    margin-bottom: 1.25rem;
+    background: #F2F2F2;
+    color: rgb(0, 6, 13);
+    padding: 1rem;
+}
 /* orbit slider */
 
 .orbit-slides-container
@@ -244,6 +277,35 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
     margin: 25px auto;
 }
 
+/* seccion bienvevidos */
+
+.social-bienvenido
+{
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-bienvenido a
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #00aef1;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+.social-bienvenido a:hover, .social-bienvenido a:focus
+{
+    background: #7bcff1;
+    color: #fff;
+}
+
 /* footer */
 
 footer
@@ -264,5 +326,45 @@ footer
 .autor p
 {
     margin: 0px;
+}
+
+.content-social
+{
+    margin: 20px auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-leftbar
+{
+    color: #fff;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.content-leftbar h2,h4
+{
+    color: #fff;
+}
+
+.footer-ico-social
+{
+    width: 38px;
+    height: 38px;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 38px;
+    background: #00aef1;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+}
+
+.footer-ico-social:hover, .footer-ico-social:focus
+{
+    background: #7bcff1;
+    color: #fff;
 }
 
