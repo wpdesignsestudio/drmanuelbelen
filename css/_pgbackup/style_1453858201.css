@@ -1,0 +1,20 @@
+
+
+html
+{
+    font-size: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    color: #00060d;
+    min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'bebas_neue_regularregular';
+}
+

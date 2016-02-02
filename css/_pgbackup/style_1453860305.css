@@ -1,0 +1,57 @@
+
+
+html
+{
+    font-size: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    color: #00060d;
+    min-height: 100vh;
+}
+
+section #bienvenida, section #procedimiento, section #video
+{
+    min-height: 100vh;
+    margin: 100px auto;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'bebas_neue_regularregular';
+}
+
+.logo-slider
+{
+    width: 25%;
+    background: rgba(0,6,13.0.5);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    z-index: 1000;
+}
+
+/* custom */
+
+.tab-bar
+{
+    background: #00060d;
+}
+
+.right-off-canvas-menu
+{
+    background: #00060d;
+}
+
+ul.off-canvas-list li label {
+    background: #00060d;
+
+    border-top: 1px solid #00060d;
+    color: #fff;
+
+}
